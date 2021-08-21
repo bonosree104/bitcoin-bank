@@ -6,5 +6,24 @@ body{
     margin-top:50px;
     padding:40px;
     border-radius: 10px;
-    box-shadow:5px 5px 5px 5px whitesmoke;
+    box-shadow:5px 5px 10px 10px whitesmoke;
+}
+#transaction-area{
+    display: none;
+}
+.status{
+   margin:0 20px;
+   color:white;
+   padding: 20px;
+   border-radius: 20px;
+}
+.deposit{
+    background-color: blue;
+}
+.withdraw{
+    background-color: crimson;
+
+}
+.balance{
+    background-color: darkgoldenrod;
 }
